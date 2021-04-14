@@ -21,7 +21,6 @@ def factoresPrimos(num):
 
 
 def genNumbers():
-
     numbers = []
     for i in range(0,12):
         numbers.append(random.randint((10**i) , (10 ** (i+1)) ))
