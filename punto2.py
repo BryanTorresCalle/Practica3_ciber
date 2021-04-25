@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 
 
 def punto2():
-    n = int(input("Ingrese un número entre 1 y 9 "))
+    n = int(input("Ingrese un número entre 1 y 10 "))
     interacciones = 0
-    while n < 1 or n > 10:
-        n = int(input("Ingrese un número entre 1 y 9 "))
+    while n < 1 or n > 11:
+        n = int(input("Ingrese un número entre 1 y 10 "))
         print ("Ingrese un n valido")
 
     while True:
